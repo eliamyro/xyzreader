@@ -129,6 +129,7 @@ public class ArticleDetailFragment extends Fragment implements
 
         mStatusBarColorDrawable = new ColorDrawable(0);
 
+        FloatingActionButton shareFab = (FloatingActionButton)getActivity().findViewById(R.id.share_fab);
         getActivity().findViewById(R.id.share_fab).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
