@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.Bacon.Transparent" parent="Theme.Bacon">
+    <style name="ReaderTheme.Transparent" parent="ReaderTheme">
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
