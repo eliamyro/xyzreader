@@ -10,7 +10,7 @@
     android:focusable="true"
     android:foreground="?selectableItemBackground"
     app:cardElevation="2dp"
-    android:stateListAnimator="@drawable/state_anim">
+    android:stateListAnimator="@anim/state_anim">
 
     <LinearLayout
         android:layout_width="match_parent"
