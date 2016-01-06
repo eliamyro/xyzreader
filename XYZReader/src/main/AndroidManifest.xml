@@ -16,7 +16,8 @@
 
         <activity
             android:name=".ui.ArticleListActivity"
-            android:label="@string/app_name">
+            android:label="@string/app_name"
+            android:theme="@style/ReaderTheme.Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -26,7 +27,7 @@
         <activity
             android:name=".ui.ArticleDetailActivity"
             android:parentActivityName=".ui.ArticleListActivity"
-            android:theme="@style/ReaderTheme.Transparent">
+            android:theme="@style/ReaderTheme.Detail">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
