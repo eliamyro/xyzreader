@@ -13,7 +13,7 @@
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/collapsingToolbarLayout"
             android:layout_width="match_parent"
-            android:layout_height="128dp"
+            android:layout_height="@dimen/collapsing_toolbar_height"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <android.support.v7.widget.Toolbar
@@ -28,7 +28,9 @@
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/app_name"
                 android:src="@drawable/logo"
-                android:layout_gravity="bottom"/>
+                android:layout_gravity="bottom"
+                android:paddingLeft="8dp"
+                android:paddingStart="8dp"/>
 
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
@@ -45,6 +47,7 @@
             android:layout_height="wrap_content"
             android:clipToPadding="false"
             android:paddingBottom="28dp"
+            android:paddingTop="@dimen/list_side_margin"
             android:paddingLeft="@dimen/list_side_margin"
             android:paddingRight="@dimen/list_side_margin"
             android:scrollbarStyle="outsideOverlay" />
