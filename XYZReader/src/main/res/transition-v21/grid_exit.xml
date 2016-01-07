@@ -1,12 +1,6 @@
-<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
-    android:transitionOrdering="together">
-
-    <explode
-        android:duration="350">
-        <targets>
-            <target android:targetId="@id/cardview" />
-        </targets>
-    </explode>
-
-</transitionSet>
-
+<explode xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="350">
+    <targets>
+        <target android:targetId="@id/cardview" />
+    </targets>
+</explode>
