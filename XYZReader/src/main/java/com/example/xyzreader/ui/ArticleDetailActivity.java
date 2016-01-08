@@ -87,7 +87,6 @@ public class ArticleDetailActivity extends AppCompatActivity
                     finishAfterTransition();
                 else
                     onSupportNavigateUp();
-
             }
         });
 
